@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="cuerpo" >
+
+<div class="contenedor-formulario">
+    <form class="apartado-formulario"  action="http://127.0.0.1:5500/index.html"   method="get">
+
+        <h2 id="citamedi">Solicitar cita medica</h2>
+
+        <label  class="formulario-label" for="mascota" >Mascota</label>
+        <input class="formulario-input" type="text" id="mascota" name="mascota" placeholder="Ingrese el nombre de la mascota"/>
+
+        <br>    
+
+        <label class="formulario-label" for="edad" >edad</label>
+        <input class="formulario-input" type="number" id="edad" name="edad" />
+
+        <br>
+
+        <label class="formulario-label" for="raza" >Raza</label>
+        <input class="formulario-input"  type="text" id="raza" name="raza" placeholder="Ingrese la raza"/>
+
+        <br>
+
+        <label class="formulario-label" for="fecha" >fecha</label>
+        <input class="formulario-input"  type="date" id="fecha" name="fecha" />
+
+        <br>
+
+        <label class="formulario-label" for="time" >hora </label>
+        <input class="formulario-input"  type="time" id="time" name="time" />
+
+        <br>
+
+        <label class="formulario-label" for="amo" >Amo</label>
+        <input  class="formulario-input" type="text" id="amo" name="amo" placeholder="Ingrese su nombre"/>
+
+        <br>
+
+        <input  onclick="alert('Se ha enviado el formulario')" class="boton-enviar"  type="submit" id="enviar" name="enviar" /> 
+
+    </form>
+
+</div>
+    
+</body>
+</html>
